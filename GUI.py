@@ -22,11 +22,10 @@ with tab1:
     ph_no = st.number_input("Phone number")
     email_id = st.text_input("Email ID","Enter your official email id")
     address = st.text_area("Address","Enter your current residential address")
-    nationality = None 
-    st.write("Nationality")
-    ind = st.checkbox("Indian")
-    nri = st.checkbox("NRI")
-    oci = st.checkbox("OCI")
+    nationality = st.radio("Nationality",
+                            ('Indian','NRI','OCI'))
+    st.download_button('Download Sample Text',f"{name}\n{age}\n{dob}\n{gender}\n{ph_no}\n{email_id}\n{address}\n{nationality}")
+    
 
 
 
