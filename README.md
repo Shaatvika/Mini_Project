@@ -1,12 +1,3 @@
-# Mini_Project
-This is the official repository to add the project code 
-A few points to be  noted:
-1. Let us maintain 3 different files to keep a track of our code for now.
-    i. Input page
-    ii. Output page
-    iii. Main code
-2. We can merge them during submission
-3. Smriti, please add the review 1 file here as well
-3. Create sub branches incase you want to change any line of code
-4. We will be maintaining the database here as well.
-5. Every single time commit a change, please mention what change you have made to the Changes file. Do not forget to add a message while commiting 
+# Job Coach
+Job Coach is an application that integrates Python and MySQL to provide users with a job that suits their skillset. A user-friendly GUI accepts input from users, namely Name, CGPA, Skillset and other job specifications, that will be compared with a set of predefined company requirements, stored in a SQL database.
+A job that suits their skillset is allotted and displayed along with information about open positions, salary and contact details of the company, that are sourced from their respective databases.
